@@ -1,0 +1,4284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>京东</title>
+		<!--处理默认样式-->
+		<link rel="stylesheet" href="../css/reset.css">
+		<!--全局样式表（没个页面上都会出现的内容的样式）-->
+		<link rel="stylesheet" href="../css/global.css"> 
+		<!--工具类样式-->
+		<link rel="stylesheet" href="../css/tools.css">
+		<!--当前html所需的样式表-->
+		<link rel="stylesheet" href="../css/jd about.css">
+		<!--
+        	作者：offline
+        	时间：2017-11-27
+        	描述：
+        	伪代码
+        	 大盒子section #box
+	        	 最上边广告 div .top-ad
+	        	 显示页div .top-bar
+	        	京东秒杀 div .jdms
+	        	享品质 div .quality
+	        	爱生活 div .life
+	        	购特色 div .feature
+	        	还没逛够 div .enough
+	        	底部 div .foot
+        -->
+	</head>
+	<body>
+		<!--大盒子-->
+		<section id="box">
+			<!--最上边广告-->
+			<div class="top-ad">
+				<div class="w1190 clearfix">
+					<a href="" class="fl">
+						<img src="../img/meitushouji.png" alt="">
+					</a>
+				</div>
+			</div>
+			<!--显示首页-->
+			<div class="top-bar mb10">
+				<div class=" h651">
+					<nav class="head-top">
+						<div class="w1190 clearfix">
+							<div class="head-top-left fl">
+								<a href="" class="dw-img fl">北京</a>
+							</div>
+							<div class="head-top-right fr">
+								<a href="" class="ibt fl">ibtcss,请登录</a>
+								<a href="" class="right-text fl">免费注册  | </a>
+								<a href="" class="right-text fl">我的订单  | </a>
+								<a href="" class="right-text fl">我的京东∨  | </a>
+								<a href="" class="right-text fl">京东会员  | </a>
+								<a href="" class="right-text fl">企业采购  | </a>
+								<a href="" class="right-text fl">客户服务∨  | </a>
+								<a href="" class="right-text fl">网站导航∨  | </a>
+								<a href="" class="right-text fl">
+									手机京东 
+									<div class="code fl"></div>
+								</a>
+							</div>
+						</div>
+					</nav>
+					<div class="search w1190 clearfix">
+						<h1>
+							<a href="" class="logo fl"></a>
+						</h1>
+						<div class="search-right fl">
+							<form class="fl">
+								<input class="sear-lefr fl" type="" name="" value="汽车牌照框"/>
+							</form>
+							<a href="" class="camera fl">照相机</a>
+							<a href="" class="magnifying fl">放大镜</a>
+							<a href="" class="shopping-cart fl" >我的购物车</a>
+							<nav class="sea-rig-bot mb8 fl">
+								<a href="" class="bot-text bot-red fl mr10">洗衣机节</a>
+								<a href="" class="bot-text fl mr10">女神特刊</a>
+								<a href="" class="bot-text fl mr10">园艺工具</a>
+								<a href="" class="bot-text fl mr10">羽绒服男</a>
+								<a href="" class="bot-text fl mr10">聚宝盆</a>
+								<a href="" class="bot-text fl mr10">甲醛</a>
+								<a href="" class="bot-text fl mr10">底盘装甲漆</a>
+								<a href="" class="bot-text fl mr10">卷后一元</a>
+								<a href="" class="bot-text fl mr10">坐垫套</a>
+							</nav>
+							<nav class="sea-bot-ms fl">
+								<a href="" class=" bot-ms-text">秒杀</a>
+								<a href="" class=" bot-ms-text">优惠券</a>
+								<a href="" class=" bot-ms-text">闪购</a>
+								<a href="" class=" bot-ms-text">拍卖</a>
+								<a href="" class=" bot-ms-text">京东服饰</a>
+								<a href="" class=" bot-ms-text">京东超市</a>
+								<a href="" class=" bot-ms-text">生鲜</a>
+								<a href="" class=" bot-ms-text">全球购</a>
+								<a href="" class=" bot-ms-text">京东金融</a>
+							</nav>
+							<a href="" class="coupon fl"> 优惠卷</a>
+						</div>
+					</div>
+					<div class="head-bot w1190 clearfix">
+						<ul class="classify fl mr10">
+							<li class="item">
+								<a href="">
+									家用电器
+								</a>
+							</li>
+							<li class="item">
+								<a href="" >
+									手机 /
+								</a>
+								<a href="">
+									运营商 /
+								</a>
+								<a href="">
+									数码
+								</a>
+							</li>
+							<li class="item">
+								<a href="">电脑 /</a>
+								<a href="">办公</a>
+							</li>
+							<li class="item">
+								<a href="">家居 /</a>
+								<a href="">家具 /</a>
+								<a href="">家装 /</a>
+								<a href="">厨具</a>
+							</li>
+							<li class="item">
+								<a href="">男装 /</a>
+								<a href="">女装 /</a>
+								<a href="">童装 /</a>
+								<a href="">内衣</a>
+							</li>
+							<li class="item">
+								<a href="">美女个护 /</a>
+								<a href="">宠物</a>
+							</li>
+							<li class="item">
+								<a href="">女鞋 /</a>
+								<a href="">箱包 /</a>
+								<a href="">钟表 /</a>
+								<a href="">珠宝</a>
+							</li>
+							<li class="item">
+								<a href="">男鞋 /</a>
+								<a href="">运动 /</a>
+								<a href="">户外</a>
+							</li>
+							<li class="item">
+								<a href="">汽车 /</a>
+								<a href="">汽车用品</a>
+							</li>
+							<li class="item">
+								<a href="">母婴 /</a>
+								<a href="">玩具乐器</a>
+							</li>
+							<li class="item">
+								<a href="">食品 /</a>
+								<a href="">酒类 /</a>
+								<a href="">生鲜 /</a>
+								<a href="">特产 </a>
+							</li>
+							<li class="item">
+								<a href="">礼品鲜花 /</a>
+								<a href="">农资绿植</a>
+							</li>
+							<li class="item">
+								<a href="">医药保健 /</a>
+								<a href="">计生情趣</a>
+							</li>
+							<li class="item">
+								<a href="">图书 /</a>
+								<a href="">音像 /</a>
+								<a href="">电子书 /</a>
+							</li>
+							<li class="item">
+								<a href="">机票 /</a>
+								<a href="">酒店 /</a>
+								<a href="">旅游 /</a>
+								<a href="">生活</a>
+							</li>
+							<li class="item">
+								<a href="">理财 /</a>
+								<a href="">众筹 /</a>
+								<a href="">白条 /</a>
+								<a href="">保险</a>
+							</li>
+						</ul>
+						<div class="mr10 fl head-bot-ad">
+							<div class="dian">
+								<div class="dot"></div>
+								<div class="quan">
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+								</div>
+							</div>	
+							<a href="" class="mb10 fl">
+								<img src="../img/zxj.png" alt="" />
+							</a>
+							<div class="">
+								<a href="" class="mr10 fl">
+									<img src="../img/ipx.png" alt="" />
+								</a>
+								<a href="" class=" fl">
+									<img src="../img/1.2.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="head-bot-right fl">
+							<div class="rig-head">
+								<span class="fl rig-head-tags ">
+									Hi,3850883-88...
+								</span>
+								<a href=""class="rig-head-text fl mr3">
+									登录
+								</a>
+								<a href=""class="rig-head-text fl">
+									注册
+								</a>
+							</div>
+							<div class="boon clearfix">
+								<a href="" class="boon-text mr10 fl ml15">
+									新人福利
+								</a>
+								<a href="" class="boon-text fl">
+									PLUS会员
+								</a>
+							</div>
+							<div class="promotion">
+								<div class="pro-head ml13 mb12 clearfix">
+									<a href=""class="mr24 red fl">促销</a>
+									<a href=""class=" fl">公告</a>
+									<a href=""class=" fr">更多</a>
+								</div>
+								<ul class="pro-con">
+									<li class="con-item">
+										<a href="" class=" ml15">全民纸巾大作战</a>
+									</li>
+									<li class="con-item">
+										<a href="" class=" ml15">家具建材满999减300元</a>
+									</li>
+									<li class="con-item">
+										<a href="" class=" ml15">黑科技冰箱，下单立减千元</a>
+									</li>
+									<li class="con-item">
+										<a href="" class=" ml15">抢102减101神卷！</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="others clearfix">
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl"></span>
+										<span class="oth-text-a fl">话费</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl jp"></span>
+										<span class="oth-text-a fl">机票</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl jd"></span>
+										<span class="oth-text-a fl">酒店</span>
+									</a>
+								</li>
+								<li class="others-item-b fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-b fl yx"></span>
+										<span class="oth-text-b fl">游戏</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl qyg"></span>
+										<span class="oth-text-a fl">企业购</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl jyk"></span>
+										<span class="oth-text-a fl">加油卡</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl dyp"></span>
+										<span class="oth-text-a fl">电影票</span>
+									</a>
+								</li>
+								<li class="others-item-b fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-b fl hcp"></span>
+										<span class="oth-text-b fl">火车票</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl zc"></span>
+										<span class="oth-text-a fl">众筹</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl lc"></span>
+										<span class="oth-text-a fl">理财</span>
+									</a>
+								</li>
+								<li class="others-item-a fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-a fl lpk"></span>
+										<span class="oth-text-a fl">礼品卡</span>
+									</a>
+								</li>
+								<li class="others-item-b fl">
+									<a href="" class=" clearfix">
+										<span class="img oth-img-b fl bt"></span>
+										<span class="oth-text-b fl">白条</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--京东秒杀-->
+			<div class="ms mb19">
+				<div class="w1190 h1109 clearfix">
+					<!--京东秒杀-->
+					<div class="seckill mb30 fl">
+						<header class="title ms-tit w1190 mb12 fl">
+							<h3 class="fl te-in w175">京东秒杀</h3>
+							<a href="" class="fl te-in w147 ml13">总有你意想不到的低价</a>
+							<div class="fr title-rig">
+								<span class="djs-text fl">
+									当前场次
+								</span>
+								<time class=" djs fl">
+									00 
+								</time>
+								<span class="djs-tags fl">
+									:
+								</span>
+								<time class="djs fl">
+									23
+								</time>
+								<span class="djs-tags fl">
+									:
+								</span>
+								<time class="djs fl">
+									09
+								</time>
+								<span class="djs-text fl">
+									后结束抢购
+								</span>
+							</div>
+						</header>
+						<ul class="seckill-content fl">
+							<li class="sec-item fl">
+								<a href="" class="item-img fl">
+									<img src="../img/ms.1.png" />
+								</a>
+								<a href="" class="item-text fl mb9">
+									Apple MacBook Air 13.3英寸笔记本电脑 银色（2017新款Cor
+								</a> 
+								<span class="item-list fl">
+									￥6288.00
+								</span>
+								<div class="item-tags fl">
+									<span >￥</span>
+									<span class="item-h">6988.00</span>
+								</div>
+							</li>
+							<li class="sec-item fl">
+								<a href="" class="item-img fl">
+									<img src="../img/ms.2.png" />
+								</a>
+								<a href="" class="item-text fl mb9">
+									【现货】隆上记 阳澄湖大闸蟹399型现货实物生鲜礼盒 公蟹4.0
+								</a> 
+								<span class="item-list fl">
+									￥99.00
+								</span>
+								<div class="item-tags fl">
+									<span >￥</span>
+									<span class="item-h">288.00</span>
+								</div>
+							</li>
+							<li class="sec-item fl">
+								<a href="" class="item-img fl">
+									<img src="../img/ms.3.png" />
+								</a>
+								<a href="" class="item-text fl mb9">
+									先锋（Singfun）取暖器/家用电暖气/暖气片/13片热浪型电热油
+								</a> 
+								<span class="item-list fl">
+									￥349.00
+								</span>
+								<div class="item-tags fl">
+									<span >￥</span>
+									<span class="item-h">599.00</span>
+								</div>
+							</li>
+							<li class="sec-item fl">
+								<a href="" class="item-img fl">
+									<img src="../img/ms.4.png" />
+								</a>
+								<a href="" class="item-text fl mb9">
+									心相印抽纸 面巾纸 茶语系列 软抽3层150抽*24包（中规格）精
+								</a> 
+								<span class="item-list fl">
+									￥68.90
+								</span>
+								<div class="item-tags fl">
+									<span >￥</span>
+									<span class="item-h">175.00</span>
+								</div>
+							</li>
+							<li class="sec-item fl noBorder">
+								<a href="" class="item-img fl">
+									<img src="../img/ms.5.png" />
+								</a>
+								<a href="" class="item-text fl mb9">
+									蓝月亮套装10.32斤：2kg亮白洗衣液薰衣草*2+500g翻盖*2+
+								</a> 
+								<span class="item-list fl">
+									￥79.90
+								</span>
+								<div class="item-tags fl">
+									<span >￥</span>
+									<span class="item-h">113.00</span>
+								</div>
+							</li>
+						</ul>
+						<div class="fl ml2">
+							<a href="" class="">
+								<img src="../img/yangmi.png" alt="" />
+							</a>
+						</div>
+					</div>
+					<!--发现好货-->
+					<div class="find mb30 mr10 fl">
+						<header class="ms-head find-img">
+							<h3 class="head-title fl">发现好货</h3>
+							<a href="" class="head-text fr">发现品质生活</a>
+						</header>
+						<ul class="find-con  clearfix">
+							<li class="find-item br fl ml10">
+								<a href="" class="find-left fl">
+									希思黎角质调理霜
+								</a>
+								<a href="" class="find-right fl">
+									<img src="../img/fx.1.png">
+								</a>
+							</li>
+							<li class="find-item fl">
+								<a href="" class="find-left fl">
+									苏秘37°肌底柔肤乳
+								</a>
+								<a href="" class="find-right fl">
+									<img src="../img/fx.2.png">
+								</a>
+							</li>
+							<li class="find-item br fl">
+								<a href="" class="find-left fl ml10">
+									忢 平衡水油面霜
+								</a>
+								<a href="" class="find-right fl">
+									<img src="../img/fx.3.png">
+								</a>
+							</li>
+							<li class="find-item fl">
+								<a href="" class="find-left fl">
+									GOLF韩版磨砂板鞋
+								</a>
+								<a href="" class="find-right fl">
+									<img src="../img/fx.4.png">
+								</a>
+							</li>
+							<li class="find-item br fl ml10">
+								<a href="" class="find-left fl">
+									五粮液 中华酒
+								</a>
+								<a href="" class="find-right fl">
+									<img src="../img/fx.5.png">
+								</a>
+							</li>
+							<li class="find-item fl">
+								<a href="" class="find-left fl">
+									爱步 休闲男鞋
+								</a>
+								<a href="" class="find-right fl">
+									<img src="../img/fx.6.png">
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!--会买专辑-->
+					<div class="special mb30 mr10 fl">
+						<header class="ms-head special-img">
+							<h3 class="head-title fl">会买专辑</h3>
+							<a href="" class="head-text fr">甄选优质好物</a>
+						</header>
+						<div class="special-con">
+							<div class="spe-item ml25">
+								<a href="" class="spe-text">提新车，高清行车记录仪装了没？</a>
+								<a href="" class="spa-img">
+									<img src="../img/hm.1.png" />
+								</a>
+							</div>
+							<div class="spe-item ml25 mt15">
+								<a href="" class="spe-text">扭扭车载娃出行，手脚并用萌翻天</a>
+								<a href="" class="spa-img">
+									<img src="../img/hm.2.png" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<!--排行榜-->
+					<div class="ranking  mb30 fl">
+						<header class="ms-head ranking-img">
+							<h3 class="head-title fl">排行榜</h3>
+							<a href="" class="head-text fr w132">专属你的购物指南</a>
+						</header>
+						<nav class="rank-nav ml10 mb10">
+							<a href="" class="nav-text fl pr10">
+								<span class=" fl 0 nav-red ">手机通讯</span>
+							</a>
+							<a href="" class="nav-text fl pr10 ml10 ">
+								<span class="nav-tags fl">休闲食品</span>
+							</a>
+							<a href="" class="nav-text fl  pr20 ml20">
+								<span class="nav-tags fl">男装</span>
+							</a>
+							<a href="" class="nav-text fl pr10 ml10">
+								<span class="nav-tags fl">粮油调味</span>
+							</a>
+							<a href="" class="nav-text fl noborder pr10 ml10 ">
+								<span class="nav-tags fl">汽车装饰</span>
+							</a>
+						</nav>
+						<ul class="ranking-con clearfix">
+							<li class="ranking-item ml10 br fl">
+								<a href="" class=" rank-img fl mb10 ml10">
+									<img src="../img/phb.1.png" />
+								</a>
+								<a href="" class="rank-text fl ml10">
+									Apple iPhone 7 Plus(A1661)32G
+								</a>
+							</li>
+							<li class="ranking-item  br fl">
+								<a href="" class=" rank-img fl mb10 ml10">
+									<img src="../img/phb.2.png" />
+								</a>
+								<a href="" class="rank-text fl ml10">
+									荣耀 畅玩6A 2GB+16GB 金色 全网
+								</a>
+							</li>
+							<li class="ranking-item fl">
+								<a href="" class=" rank-img fl mb10 ml10">
+									<img src="../img/phb.3.png" />
+								</a>
+								<a href="" class="rank-text fl ml10">
+									小米 红米NOte4X全网通版 4GB+64
+								</a>
+							</li>
+							<li class="ranking-item ml10 br fl">
+								<a href="" class=" rank-img fl mb10 ml10">
+									<img src="../img/phb.4.png" />
+								</a>
+								<a href="" class="rank-text fl ml10">
+									荣耀 畅玩6X 4GB 32GB 全网通4G手
+								</a>
+							</li>
+							<li class="ranking-item  br fl">
+								<a href="" class=" rank-img fl mb10 ml10">
+									<img src="../img/phb.5.png" />
+								</a>
+								<a href="" class="rank-text fl ml10">
+									Apple iPhone 8 Plus(A1864)64GB
+								</a>
+							</li>
+							<li class="ranking-item fl">
+								<a href="" class=" rank-img fl mb10 ml10">
+									<img src="../img/phb.6.png" />
+								</a>
+								<a href="" class="rank-text fl ml10">
+									【保险套餐版】Apple iPhone X(A
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--领卷中心-->
+					<div class="get mb30 mr10 fl">
+						<header class="ms-head get-img mb10">
+							<h3 class="head-title fl">领卷中心</h3>
+							<a href="" class="head-text fr">前往领卷中心</a>
+						</header>
+						<ul class="get-con">
+							<li class="get-item br fl">
+								<div class="get-left ml15 mt15 fl">
+									<a href="" class="left-top fl">
+										<span class="mo-sym fl">￥</span>
+										<span class="mo-fig fl">16</span>
+										<span class="recommend fl">
+											仅可购买京东自营图书音像商品
+										</span>
+									</a>
+									<div class="left-bot fl">
+										<div class="bot-top ml10 fl">
+											消费满200元可用
+										</div>
+										<a href="" class="bot-more fl">
+											更多好卷
+										</a>
+									</div>
+								</div>
+								<div class="get-right fl mt15">
+									<img src="../img/lj.1.png" alt="" />
+								</div>
+							</li>
+							<li class="get-item br fl">
+								<div class="get-left ml15 mt15 fl">
+									<a href="" class="left-top fl">
+										<span class="mo-sym fl">￥</span>
+										<span class="mo-fig fl">300</span>
+										<span class="recommend fl">
+											仅可购买指定商品
+										</span>
+									</a>
+									<div class="left-bot fl">
+										<div class="bot-top ml10 fl">
+											消费满999元可用
+										</div>
+										<a href="" class="bot-more fl">
+											更多服饰箱包卷
+										</a>
+									</div>
+								</div>
+								<div class="get-right fl mt15">
+									<img src="../img/lj.2.png" alt="" />
+								</div>
+							</li>
+							<li class="get-item br fl">
+								<div class="get-left ml15 mt15 fl">
+									<a href="" class="left-top fl">
+										<span class="mo-sym fl">￥</span>
+										<span class="mo-fig fl">1500</span>
+										<span class="recommend fl">
+											仅可购买京东自营冰洗冷部分商品
+										</span>
+									</a>
+									<div class="left-bot fl">
+										<div class="bot-top ml10 fl">
+											消费满10000元可用
+										</div>
+										<a href="" class="bot-more fl">
+											更多数码家电卷
+										</a>
+									</div>
+								</div>
+								<div class="get-right fl mt15">
+									<img src="../img/lj.3.png" alt="" />
+								</div>
+							</li>
+							<li class="get-item  fl">
+								<div class="get-left ml15 mt15 fl">
+									<a href="" class="left-top fl">
+										<span class="mo-sym fl">￥</span>
+										<span class="mo-fig fl">600</span>
+										<span class="recommend fl">
+											仅可购买家装建材类目下的部分
+										</span>
+									</a>
+									<div class="left-bot fl">
+										<div class="bot-top ml10 fl">
+											消费满2999元可用
+										</div>
+										<a href="" class="bot-more fl">
+											更多家居家纺卷
+										</a>
+									</div>
+								</div>
+								<div class="get-right fl mt15">
+									<img src="../img/lj.4.png" alt="" />
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+					<!--觅me-->
+					<div class="seek mb30 fl">
+						<header class="ms-head seek-img mb25">
+							<h3 class="head-title fl">觅me</h3>
+							<a href="" class="head-text fr">探索生活</a>
+						</header>
+						<div class=" seek-con clearfix">
+							<a href="" class="seek-left fl">
+								<img src="../img/mime.png" alt="" />
+							</a>
+							<div class="seek-right fl">
+								<a href="" class="rig-top fl">
+									今年最好的 25 件发明公布了！你有几件？
+								</a>
+								<div class="rig-bot fl">
+									今年最好的 25 件发明公...
+									<a href="" class="bot-text">
+										查看原文>
+									</a>	
+								</div>
+								<span class="seen fl">
+										18604人看过
+								</span>
+							</div>
+							<div class="seek-bot fl">
+								<a href="" class="">●</a>
+								<a href="" class="">●</a>
+								<a href="" class="red">●</a>
+								<a href="" class="">●</a>
+								<a href="" class="">●</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--底部广告-->
+				<div class="bot-ad">
+					<div class="w1190 clearfix">
+						<a href=""class="fl">
+							<img src="../img/ms.ad.1.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+						<a href=""class="fl">
+							<img src="../img/ms.ad.2.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+						<a href=""class="fl">
+							<img src="../img/ms.ad.3.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!--享品质-->
+			<div class="quality mb19 h736">
+				<div class="w1190  clearfix ">
+					<h3 class="title fl w1190">
+						享品质
+					</h3>
+					<ul class="qua-left fl">
+						<li class="qua-item mr10 mb10 fl">
+							<a href="" class="item-left a fl">
+								<span class=" left-top fl">
+									新品首发
+								</span>
+								<span class=" left-bot fl">
+									iphone X 现货抢~
+								</span>
+							</a>
+							<a href="" class="item-right fl">
+								<img src="../img/xpz.1.png" alt="">
+							</a>
+						</li>
+						<li class="qua-item mr10 mb10 fl">
+							<a href="" class="item-left b fl">
+								<span class=" left-top fl">
+									会逛
+								</span>
+								<span class=" left-bot fl">
+									鞋靴神卷提前抢满499减150
+								</span>
+							</a>
+							<a href="" class="item-right fl">
+								<img src="../img/xpz.2.png" alt="">
+							</a>
+						</li>
+						<li class="qua-item mr10 mb10 fl">
+							<a href="" class="item-left c fl">
+								<span class=" left-top fl">
+									奢侈大牌
+								</span>
+								<span class=" left-bot fl">
+									尽享品质生活
+								</span>
+							</a>
+							<a href="" class="item-right fl">
+								<img src="../img/xpz.3.png" alt="">
+							</a>
+						</li>
+						<li class="qua-item mr10 mb10 fl">
+							<a href="" class="item-left d fl">
+								<span class=" left-top fl">
+									智能生活
+								</span>
+								<span class=" left-bot fl">
+									智能潮货，嗨购不停
+								</span>
+							</a>
+							<a href="" class="item-right fl">
+								<img src="../img/xpz.4.png" alt="">
+							</a>
+						</li>
+						<li class="qua-item mr10 mb10  fl">
+							<a href="" class="item-left e fl">
+								<span class=" left-top fl">
+									京东超市
+								</span>
+								<span class=" left-bot fl">
+									精选超值好货 天天特价
+								</span>
+							</a>
+							<a href="" class="item-right fl">
+								<img src="../img/xpz.5.png" alt="">
+							</a>
+						</li>
+						<li class="qua-item mr10 mb10  fl">
+							<a href="" class="item-left f fl">
+								<span class=" left-top fl">
+									白条京东
+								</span>
+								<span class=" left-bot fl">
+									最高12期免息
+								</span>
+							</a>
+							<a href="" class="item-right fl">
+								<img src="../img/xpz.6.png" alt="">
+							</a>
+						</li>
+						
+					</ul>
+					<div class="qua-right fl">
+						<div class="rig-top mb10">
+							<a href="" class="">
+								<img src="../img/xsh.rig.1.png" alt="" />
+							</a>
+							<div class="img-top">
+								<a href=""class="img-top-left fl">京东直播</a>
+								<a href=""class="img-top-rig fr">
+									更多
+									<span class="gd fr"> ></span>
+								</a>
+							</div>
+							<div class="img-left clearfix">
+								<div class="color fl"></div>
+								<a href="" class="left-text fl">
+									<
+								</a>
+							</div>
+							<div class="img-right">
+								<div class="color fl"></div>
+								<a href="" class="right-text fl">
+									>
+								</a>
+							</div>
+							<div class="img-bot">
+								<div class="color"></div>
+								<a href="" class="bot-text fl">
+									秋冬帅气桃花眼装秘籍
+								</a>
+								<div class="bot-quan">
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+									<a href="">●</a>
+								</div>	
+							</div>
+						</div>
+						<div class="rig-bot ">
+							<a href="" class="bot-list fl mr10">
+								<img src="../img/xpz.rig.2.png" alt=""/>
+								<span class="img-color fl"></span>
+								<span class="img-text fl">
+									设计师推荐
+								</span>
+								<span class="img-tags fl">
+									全球设计精选
+								</span>
+							</a>
+							<a href="" class="bot-list fl">
+								<img src="../img/xpz.rig.3.png" alt=""/>
+								<span class="img-color-b fl"></span>
+								<span class="img-text fl">
+									全球尖货
+								</span>
+								<span class="img-tags fl">
+									全球自营好货
+								</span>
+							</a>
+							
+						</div>
+					</div>
+				</div>
+				<div class="bot-ad">
+					<div class="w1190 clearfix">
+						<a href="" class="fl">
+							<img src="../img/xpz.ad.1.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+						<a href="" class="fl">
+							<img src="../img/xpz.ad.2.png" alt="" />
+						</a>
+						<a href="" class="fl">
+							<img src="../img/xpz.ad.3.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!--爱生活-->
+			<div class="life mb19">
+				<div class=" h5143 ">
+					<h3 class="title w1190">
+						爱生活
+					</h3>
+					<div class="w1190 clearfix">
+						<!--爱逛-->
+						<div class="item fl mb30 mr10">
+							<header class="life-head ag mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱逛
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text ag fl mr10">
+										温暖女神
+									</a>
+									<a href="" class="rig-text ag fl mr10">
+										鞋靴大促
+									</a>
+									<a href="" class="rig-text ag fl mr10">
+										童装童鞋
+									</a>
+									<a href="" class="rig-text ag fl mr10">
+										珠宝
+									</a>
+									<a href="" class="rig-text ag fl mr20">
+										大牌腕表
+									</a>
+								</div>
+							</header>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/ag.1.png" alt="">
+									<span class="con-left-top fl ">
+										服装城
+									</span>
+									<span class="con-left-en fl">
+										GARMENT CITY
+									</span>
+									<span class="con-left-bot fl ">
+										潮流时尚汇
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right clearfix fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ag.2.png" alt="" />
+											<span class="rig-item-top">
+												型男保暖季
+											</span>
+											<span class="rig-item-bot">
+												羽绒低至99元
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ag.3.png" alt="" />
+											<span class="rig-item-top">
+												温暖女神
+											</span>
+											<span class="rig-item-bot">
+												抢神卷600减300
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ag.4.png" alt="" />
+											<span class="rig-item-top">
+												保暖超品日
+											</span>
+											<span class="rig-item-bot">
+												3免1
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ag.5.png" alt="" />
+											<span class="rig-item-top">
+												鞋靴品类日
+											</span>
+											<span class="rig-item-bot">
+												499减150
+											</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</div>
+							<ul class="life-bot clearfix">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ag.6.png" alt="" />
+										<span class="img-top fl">
+											珠宝首饰
+										</span>
+										<span class="img-mid fl">
+											潮流饰品
+										</span>
+										<span class="img-bot fl">
+											点击进入
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ag.7.png" alt="" />
+										<span class="img-top fl">
+											手腕小心机
+										</span>
+										<span class="img-mid fl">
+											经典时尚
+										</span>
+										<span class="img-bot fl">
+											品质热卖
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ag.8.png" alt="" />
+										<span class="img-top fl">
+											保暖男靴
+										</span>
+										<span class="img-mid fl">
+											低至79元
+										</span>
+										<span class="img-bot fl">
+											冬季热卖
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/ag.ad.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ag.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ag.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ag.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ag.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ag.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30">
+							<div class="life-head aml mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱美丽
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text aml fl mr10">
+										洁面
+									</a>
+									<a href="" class="rig-text aml fl mr10">
+										套装
+									</a>
+									<a href="" class="rig-text aml fl mr10">
+										面膜
+									</a>
+									<a href="" class="rig-text aml fl mr10">
+										眼霜
+									</a>
+									<a href="" class="rig-text aml fl mr10">
+										女性护理
+									</a>
+									<a href="" class="rig-text aml fl mr20">
+										洗发护发
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/aml.1.png" alt="">
+									<span class="con-left-top fl ">
+										美妆个护
+									</span>
+									<span class="con-left-en fl">
+										BEAUTY MAKEUP
+									</span>
+									<span class="con-left-bot fl ">
+										满199减100
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aml.2.png" alt="" />
+											<span class="rig-item-top">
+												美妆馆
+											</span>
+											<span class="rig-item-bot">
+												满199减100
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aml.3.png" alt="" />
+											<span class="rig-item-top">
+												面部护肤
+											</span>
+											<span class="rig-item-bot">
+												爆款2件5折
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aml.4.png" alt="" />
+											<span class="rig-item-top">
+												香水彩妆
+											</span>
+											<span class="rig-item-bot">
+												满199减100
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aml.5.png" alt="" />
+											<span class="rig-item-top">
+												个护馆
+											</span>
+											<span class="rig-item-bot">
+												低至9.9元
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/aml.6.png" alt="" />
+										<span class="img-top fl">
+											个人护理
+										</span>
+										<span class="img-mid fl">
+											爆款低至5折
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/aml.7.png" alt="" />
+										<span class="img-top fl">
+											沐浴会场
+										</span>
+										<span class="img-mid fl">
+											爆款不止5折
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/aml.8.png" alt="" />
+										<span class="img-top fl">
+											进口药妆馆
+										</span>
+										<span class="img-mid fl">
+											爆款直降
+										</span>
+										<span class="img-bot fl">
+											专业选择
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/aml.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aml.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aml.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aml.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aml.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aml.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30 mr10">
+							<header class="life-head jdg mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										家电馆
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text jdg fl mr10">
+										惠聚宝盆
+									</a>
+									<a href="" class="rig-text jdg fl mr10">
+										领卷减800
+									</a>
+									<a href="" class="rig-text jdg fl mr10">
+										多买优惠
+									</a>
+									<a href="" class="rig-text jdg fl mr20">
+										爆品联盟
+									</a>
+								</div>
+							</header>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/jdg.1.png" alt="">
+									<span class="con-left-top fl ">
+										家电馆
+									</span>
+									<span class="con-left-en fl">
+										HOME APPLIANCES
+									</span>
+									<span class="con-left-bot fl ">
+										最高砍价100元
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdg.2.png" alt="" />
+											<span class="rig-item-top">
+												小家电惠聚宝盘
+											</span>
+											<span class="rig-item-bot">
+												每满200元减30元
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdg.3.png" alt="" />
+											<span class="rig-item-top">
+												爆品联盟
+											</span>
+											<span class="rig-item-bot">
+												65吋3999限量抢
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdg.4.png" alt="" />
+											<span class="rig-item-top">
+												洗衣机节
+											</span>
+											<span class="rig-item-bot">
+												领卷享满减
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdg.5.png" alt="" />
+											<span class="rig-item-top">
+												制暖总动员
+											</span>
+											<span class="rig-item-bot">
+												每满2000减200
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/jdg.6.png" alt="" />
+										<span class="img-top fl">
+											夏普电视
+										</span>
+										<span class="img-mid fl">
+											6期免息
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/jdg.7.png" alt="" />
+										<span class="img-top fl">
+											美的家电惠
+										</span>
+										<span class="img-mid fl">
+											满额送洗衣机
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/jdg.8.png" alt="" />
+										<span class="img-top fl">
+											西门子家电
+										</span>
+										<span class="img-mid fl">
+											品质购
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/jdg.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdg.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdg.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdg.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdg.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdg.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30">
+							<div class="life-head gjp mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										搞机派
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text gjp fl mr10">
+										金属机身
+									</a>
+									<a href="" class="rig-text gjp fl mr10">
+										快速充电
+									</a>
+									<a href="" class="rig-text gjp fl mr10">
+										拍照神器
+									</a>
+									<a href="" class="rig-text gjp fl mr20">
+										后置双摄像
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/gjp.1.png" alt="">
+									<span class="con-left-top fl ">
+										手机
+									</span>
+									<span class="con-left-en fl">
+										MOBILE PHONE
+									</span>
+									<span class="con-left-bot fl ">
+										新品抢购
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/gjp.2.png" alt="" />
+											<span class="rig-item-top">
+												新Phone尚
+											</span>
+											<span class="rig-item-bot">
+												Note8芭比粉上市
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/gjp.3.png" alt="" />
+											<span class="rig-item-top">
+												关爱老人
+											</span>
+											<span class="rig-item-bot">
+												购机送好礼
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/gjp.4.png" alt="" />
+											<span class="rig-item-top">
+												京东网厅
+											</span>
+											<span class="rig-item-bot">
+												每天1元享800M
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/gjp.5.png" alt="" />
+											<span class="rig-item-top">
+												正品好店
+											</span>
+											<span class="rig-item-bot">
+												iphone6限时秒杀
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/gjp.7.png" alt="" />
+										<span class="img-top fl">
+											美图新品
+										</span>
+										<span class="img-mid fl">
+											抢400元优惠卷
+										</span>
+										<span class="img-bot fl">
+											立即查看
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/gjp.8.png" alt="" />
+										<span class="img-top fl">
+											中国电生日号
+										</span>
+										<span class="img-mid fl">
+											京东首发
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/gjp.7.png" alt="" />
+										<span class="img-top fl">
+											美图新品
+										</span>
+										<span class="img-mid fl">
+											抢400元优惠卷
+										</span>
+										<span class="img-bot fl">
+											立即查看
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/gjp.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/gjp.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/gjp.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/gjp.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/gjp.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/gjp.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item item-a fl mb30">
+							<div class="life-head-a dnsm mb10">
+								<div class="head-left fl">
+									<h4 class="life-title dnsm fl">
+										电脑数码
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text dnsm fl mr10">
+										电脑馆
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										游戏极品
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										装机大师
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										职场换新
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										女神频道
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										虚拟现实
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										二合一平板
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										电子教育
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										飞行馆
+									</a>
+									<a href="" class="rig-text dnsm fl mr10">
+										全球智选
+									</a><a href="" class="rig-text dnsm fl mr20">
+										照片冲印
+									</a>
+								</div>
+							</div>
+							<div class="big-left fl">
+								<div class="life-con clearfix">
+										<a href="" class="life-con-left fl ml10">
+											<img src="../img/dnsml.1.png" alt="">
+											<span class="con-left-top fl ">
+												电脑办公
+											</span>
+											<span class="con-left-en fl">
+												THE COMPUTER
+											</span>
+											<span class="con-left-bot fl ">
+												吃鸡装备 免费试用
+											</span>
+											<span class="con-left-t fl"></span>
+										</a>
+										<ul class="life-con-right fl ml10">
+										<li class="con-right-item bt br fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsml.2.png" alt="" />
+												<span class="rig-item-top">
+													电脑馆
+												</span>
+												<span class="rig-item-bot">
+													笔记本立减1111
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsml.3.png" alt="" />
+												<span class="rig-item-top">
+													外设装备
+												</span>
+												<span class="rig-item-bot">
+													雷神新品0元试用
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt br fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsml.4.png" alt="" />
+												<span class="rig-item-top">
+													电脑配件
+												</span>
+												<span class="rig-item-bot">
+													下单立省1500元！
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsml.5.png" alt="" />
+												<span class="rig-item-top">
+													办公生活
+												</span>
+												<span class="rig-item-bot">
+													年度文具榜单
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<ul class="life-bot">
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/dnsml.6.png" alt="" />
+											<span class="img-top fl">
+												浪漫新主意
+											</span>
+											<span class="img-mid fl">
+												指尖上的我爱你
+											</span>
+											<span class="img-bot fl">
+												点击查看
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/dnsml.7.png" alt="" />
+											<span class="img-top fl">
+												四核电脑低至999元
+											</span>
+											<span class="img-mid fl">
+												黑色星期五
+											</span>
+											<span class="img-bot fl">
+												点击查看
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/dnsml.8.png" alt="" />
+											<span class="img-top fl">
+												学生党的春天在此
+											</span>
+											<span class="img-mid fl">
+												学生专属价格
+											</span>
+											<span class="img-bot fl">
+												点击查看
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="big-right fl">
+								<div class="life-con clearfix">
+									<a href="" class="life-con-left fl ml10">
+										<img src="../img/dnsmr.1.png" alt="">
+										<span class="con-left-top fl ">
+											智能数码
+										</span>
+										<span class="con-left-en fl">
+											THE DIGITAL
+										</span>
+										<span class="con-left-bot fl ">
+											潮品新奇特
+										</span>
+										<span class="con-left-t fl"></span>
+									</a>
+									<ul class="life-con-right fl ml10">
+										<li class="con-right-item bt br fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsmr.2.png" alt="" />
+												<span class="rig-item-top">
+													拼平板电脑
+												</span>
+												<span class="rig-item-bot">
+													大牌平板12期免息
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsmr.3.png" alt="" />
+												<span class="rig-item-top">
+													智能酷玩
+												</span>
+												<span class="rig-item-bot">
+													智能设备5折抢
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt br fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsmr.4.png" alt="" />
+												<span class="rig-item-top">
+													娱乐影音
+												</span>
+												<span class="rig-item-bot">
+													爆品低至5折
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/dnsmr.5.png" alt="" />
+												<span class="rig-item-top">
+													摄影摄像
+												</span>
+												<span class="rig-item-bot">
+													部分12期免息
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<ul class="life-bot">
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/dnsmr.6.png" alt="" />
+											<span class="img-top fl">
+												小布
+											</span>
+											<span class="img-mid fl">
+												智能机器人
+											</span>
+											<span class="img-bot fl">
+												惊艳首发
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/dnsmr.7.png" alt="" />
+											<span class="img-top fl">
+												贴膜时代3.0
+											</span>
+											<span class="img-mid fl">
+												保护不将就
+											</span>
+											<span class="img-bot fl">
+												部分贴膜满7-6
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/dnsmr.8.png" alt="" />
+											<span class="img-top fl">
+												全场2件8折 3件7折
+											</span>
+											<span class="img-mid fl">
+												智能周边
+											</span>
+											<span class="img-bot fl">
+												点击查看
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl ml15">
+									<img src="../img/dnsml.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.6.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.7.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.8.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.9.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.10.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.11.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/dnsml.ad.12.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30 mr10">
+							<div class="life-head w3c mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										玩3C
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text w3c fl mr10">
+										手机
+									</a>
+									<a href="" class="rig-text fl w3c mr10">
+										电脑
+									</a>
+									<a href="" class="rig-text fl w3c mr10">
+										数码
+									</a>
+									<a href="" class="rig-text fl w3c mr10">
+										意愿秒租
+									</a>
+									<a href="" class="rig-text fl w3c mr20">
+										分期用
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/w3c.1.png" alt="">
+									<span class="con-left-top fl ">
+										玩3C
+									</span>
+									<span class="con-left-en fl">
+										ELECTRONICS
+									</span>
+									<span class="con-left-bot fl ">
+										电子潮物嗨购
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/w3c.2.png" alt="" />
+											<span class="rig-item-top">
+												3C新品
+											</span>
+											<span class="rig-item-bot">
+												抢新品享白条免息
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/w3c.3.png" alt="" />
+											<span class="rig-item-top">
+												女神专属
+											</span>
+											<span class="rig-item-bot">
+												爆款低至9.9元抢
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/w3c.4.png" alt="" />
+											<span class="rig-item-top">
+												手机配件
+											</span>
+											<span class="rig-item-bot">
+												买数据线上京东
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/w3c.5.png" alt="" />
+											<span class="rig-item-top">
+												vivo全面屏
+											</span>
+											<span class="rig-item-bot">
+												12期白天免息
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/w3c.6.png" alt="" />
+										<span class="img-top fl">
+											三星Note8
+										</span>
+										<span class="img-mid fl">
+											赠菲戈尔洁面仪
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/w3c.7.png" alt="" />
+										<span class="img-top fl">
+											游戏装备
+										</span>
+										<span class="img-mid fl">
+											低至五折
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/w3c.8.png" alt="" />
+										<span class="img-top fl">
+											二手手机
+										</span>
+										<span class="img-mid fl">
+											笔记本 数码
+										</span>
+										<span class="img-bot fl">
+											快来挑选
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/w.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/w.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/w.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/w.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/w.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/w.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30">
+							<div class="life-head ayd mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱运动
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text ayd fl mr10">
+										跑步鞋
+									</a>
+									<a href="" class="rig-text ayd fl mr10">
+										冲锋衣
+									</a>
+									<a href="" class="rig-text ayd fl mr10">
+										动感单车
+									</a>
+									<a href="" class="rig-text ayd  fl mr10">
+										电动车
+									</a>
+									<a href="" class="rig-text ayd fl mr20">
+										户外风衣
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/ayd.1.png" alt="">
+									<span class="con-left-top fl ">
+										运动户外
+									</span>
+									<span class="con-left-en fl">
+										OUTDOOR SPORTS
+									</span>
+									<span class="con-left-bot fl ">
+										大牌冬尚新
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayd.2.png" alt="" />
+											<span class="rig-item-top">
+												运动
+											</span>
+											<span class="rig-item-bot">
+												运动潮品
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayd.3.png" alt="" />
+											<span class="rig-item-top">
+												户外
+											</span>
+											<span class="rig-item-bot">
+												秋冬上新
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayd.4.png" alt="" />
+											<span class="rig-item-top">
+												健身
+											</span>
+											<span class="rig-item-bot">
+												打造良好身材
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayd.5.png" alt="" />
+											<span class="rig-item-top">
+												骑行
+											</span>
+											<span class="rig-item-bot">
+												自由出行
+											</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayd.6.png" alt="" />
+										<span class="img-top fl">
+											京东体育
+										</span>
+										<span class="img-mid fl">
+											全民运动
+										</span>
+										<span class="img-bot fl">
+											立即报名
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayd.7.png" alt="" />
+										<span class="img-top fl">
+											健出名堂
+										</span>
+										<span class="img-mid fl">
+											任性耍酷
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayd.8.png" alt="" />
+										<span class="img-top fl">
+											自营户外
+										</span>
+										<span class="img-mid fl">
+											爆款直降
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/ayd.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayd.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayd.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayd.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayd.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayd.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bot-ad mb30">
+						<div class="w1190 clearfix">
+						<a href="" class="fl">
+							<img src="../img/ash.ad.1.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+						<a href="" class="fl">
+							<img src="../img/ash.ad.2.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+						<a href="" class="fl">
+							<img src="../img/ash.ad.3.png" alt="" />
+							<span class="gg-text fl"></span>
+							<span class="gg-tags fl"></span>
+						</a>
+					</div>
+					</div>
+					<div class=" w1190 clearfix">
+						<div class="item-a fl accolor mb30">
+							<div class="life-head-a ac mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱吃
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text ac fl mr10">
+										休闲食品
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										坚果
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										牛奶
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										饮料冲调
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										食用油
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										大米
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										白酒
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										红酒
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										酸奶
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										牛奶
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										火锅
+									</a>
+									<a href="" class="rig-text ac fl mr10">
+										橙子
+									</a>
+									<a href="" class="rig-text fl mr20">
+										辽参
+									</a>
+								</div>
+							</div>
+							<div class="big-left fl">
+								<div class="life-con clearfix">
+										<a href="" class="life-con-left fl ml10">
+											<img src="../img/acl.1.png" alt="">
+											<span class="con-left-top fl ">
+												食品饮料
+											</span>
+											<span class="con-left-en fl">
+												GARMENT CITY
+											</span>
+											<span class="con-left-bot fl ">
+												年终盘点
+											</span>
+											<span class="con-left-t fl"></span>
+										</a>
+										<ul class="life-con-right fl ml10">
+										<li class="con-right-item bt br fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/acl.2.png" alt="" />
+												<span class="rig-item-top">
+													粮油调味
+												</span>
+												<span class="rig-item-bot">
+													2件8折
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/acl.3.png" alt="" />
+												<span class="rig-item-top">
+													饮料冲调
+												</span>
+												<span class="rig-item-bot">
+													满99减20
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt br fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/acl.4.png" alt="" />
+												<span class="rig-item-top">
+													休闲零食
+												</span>
+												<span class="rig-item-bot">
+													满99减50
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item bt fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/acl.5.png" alt="" />
+												<span class="rig-item-top">
+													中外名酒
+												</span>
+												<span class="rig-item-bot">
+													满199减100
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<ul class="life-bot">
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/acl.6.png" alt="" />
+											<span class="img-top fl">
+												食用油
+											</span>
+											<span class="img-mid fl">
+												曝品直降
+											</span>
+											<span class="img-bot fl">
+												好油放心购
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/acl.7.png" alt="" />
+											<span class="img-top fl">
+												中外名酒
+											</span>
+											<span class="img-mid fl">
+												爆款直降
+											</span>
+											<span class="img-bot fl">
+												立即抢购
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/acl.8.png" alt="" />
+											<span class="img-top fl">
+												牛奶乳品
+											</span>
+											<span class="img-mid fl">
+												节日礼盒
+											</span>
+											<span class="img-bot fl">
+												爆款直降
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="big-right fl">
+								<div class="life-con clearfix">
+									<a href="" class="life-con-left fl ml10">
+										<img src="../img/acr.1.png" alt="">
+										<span class="con-left-top fl ">
+											京东生鲜
+										</span>
+										<span class="con-left-en fl">
+											GARMENT CITY
+										</span>
+										<span class="con-left-bot fl ">
+											东南亚独特的味道
+										</span>
+										<span class="con-left-t fl"></span>
+									</a>
+									<a href="" class="life-con-left fl ml10">
+										<img src="../img/acr.2.png" alt="">
+										<span class="con-left-top fl ">
+											优选100
+										</span>
+										<span class="con-left-en fl">
+											IOP SELECTION
+										</span>
+										<span class="con-left-bot fl ">
+											东海洁净海域的鲜味
+										</span>
+										<span class="con-left-t fl"></span>
+									</a>
+									<ul class="life-con-right-a fl ml10">
+										<li class="con-right-item bt flx">
+											<a href="" class="rig-item fl">
+												<img src="../img/acr.3.png" alt="" />
+												<span class="rig-item-top">
+													东家菜
+												</span>
+												<span class="rig-item-bot">
+													精致生活一键立享
+												</span>
+											</a>
+										</li>
+										<li class="con-right-item fl">
+											<a href="" class="rig-item fl">
+												<img src="../img/acr.4.png" alt="" />
+												<span class="rig-item-top">
+													"0"元试吃
+												</span>
+												<span class="rig-item-bot">
+													丰富好味轻松品尝
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<ul class="life-bot">
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/acr.5.png" alt="" />
+											<span class="img-top fl">
+												老北京火锅
+											</span>
+											<span class="img-mid fl">
+												领卷199减80
+											</span>
+											<span class="img-bot fl">
+												立即购买
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/acr.6.png" alt="" />
+											<span class="img-top fl">
+												时令鲜果
+											</span>
+											<span class="img-mid fl">
+												59元3件
+											</span>
+											<span class="img-bot fl">
+												立即购买
+											</span>
+										</a>
+									</li>
+									<li class="life-bot-item fl ml10">
+										<a href="" class="bot-item-img fl">
+											<img src="../img/acr.7.png" alt="" />
+											<span class="img-top fl">
+												海鲜火锅
+											</span>
+											<span class="img-mid fl">
+												领卷199减80
+											</span>
+											<span class="img-bot fl">
+												立即购买
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text ml15 fl">
+									<img src="../img/ac.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.6.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.7ss.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.8.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.9.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.10.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.11.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ac.ad.12.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30 mr10">
+							<div class="life-head abb mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱宝宝
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text abb fl mr10">
+										洗护喂养
+									</a>
+									<a href="" class="rig-text abb fl mr10">
+										妈妈专区
+									</a>
+									<a href="" class="rig-text abb fl mr10">
+										寝居服饰
+									</a>
+									<a href="" class="rig-text abb fl mr20">
+										婴儿推车
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/abb.1.png" alt="">
+									<span class="con-left-top fl ">
+										母婴玩具
+									</span>
+									<span class="con-left-en fl">
+										M O M
+									</span>
+									<span class="con-left-bot fl ">
+									好货5折抢
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/abb.2.png" alt="" />
+											<span class="rig-item-top">
+												奶粉辅食
+											</span>
+											<span class="rig-item-bot">
+												多买多优惠
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/abb.3.png" alt="" />
+											<span class="rig-item-top">
+												尿裤湿巾
+											</span>
+											<span class="rig-item-bot">
+												大牌直降
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/abb.4.png" alt="" />
+											<span class="rig-item-top">
+												玩具乐器
+											</span>
+											<span class="rig-item-bot">
+												爆款抢不停
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/abb.5.png" alt="" />
+											<span class="rig-item-top">
+												陪伴宝宝
+											</span>
+											<span class="rig-item-bot">
+											特价9.9
+											</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/abb.6.png" alt="" />
+										<span class="img-top fl">
+											尤妮佳盛典
+										</span>
+										<span class="img-mid fl">
+											最高满299减100
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/abb.7.png" alt="" />
+										<span class="img-top fl">
+											自营车床
+										</span>
+										<span class="img-mid fl">
+											每满199减20
+										</span>
+										<span class="img-bot fl">
+											立即购买入
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/abb.8.png" alt="" />
+										<span class="img-top fl">
+											美赞臣
+										</span>
+										<span class="img-mid fl">
+											爆款直降
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/abb.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/abb.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/abb.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/abb.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/abb.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/abb.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30">
+							<div class="life-head aj mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱家
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text aj fl mr10">
+										装修
+									</a>
+									<a href="" class="rig-text aj fl mr10">
+										设计帮
+									</a>
+									<a href="" class="rig-text aj fl mr10">
+										灯饰
+									</a>
+									<a href="" class="rig-text aj fl mr10">
+										床
+									</a>
+									<a href="" class="rig-text aj fl mr10">
+										保温杯
+									</a>
+									<a href="" class="rig-text aj fl mr20">
+										被子
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/aj.1.png" alt="">
+									<span class="con-left-top fl ">
+										家装城
+									</span>
+									<span class="con-left-en fl">
+										HOME
+									</span>
+									<span class="con-left-bot fl ">
+										装修一站购
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aj.2.png" alt="" />
+											<span class="rig-item-top">
+												家装建材
+											</span>
+											<span class="rig-item-bot">
+												优惠直降
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aj.3.png" alt="" />
+											<span class="rig-item-top">
+												品质厨具
+											</span>
+											<span class="rig-item-bot">
+												自营满300减50
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aj.4.png" alt="" />
+											<span class="rig-item-top">
+												精品家具
+											</span>
+											<span class="rig-item-bot">
+												优惠促销
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/aj.5.png" alt="" />
+											<span class="rig-item-top">
+												居家日用
+											</span>
+											<span class="rig-item-bot">
+												3件8折
+											</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/aj.6.png" alt="" />
+										<span class="img-top fl">
+											厨卫电工
+										</span>
+										<span class="img-mid fl">
+											满399减100
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/aj.7.png" alt="" />
+										<span class="img-top fl">
+											装修服务
+										</span>
+										<span class="img-mid fl">
+											京质家装
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/aj.8.png" alt="" />
+										<span class="img-top fl">
+											免费设计师
+										</span>
+										<span class="img-mid fl">
+											装点理想家
+										</span>
+										<span class="img-bot fl">
+											点击进入
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/aj.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aj.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aj.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aj.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aj.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/aj.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30 mr10">
+							<div class="life-head ayued mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱阅读
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text ayued fl mr10">
+										外语
+									</a>
+									<a href="" class="rig-text ayued fl mr10">
+										历史
+									</a>
+									<a href="" class="rig-text ayued fl mr10">
+										经营
+									</a>
+									<a href="" class="rig-text ayued fl mr10">
+										摄影
+									</a>
+									<a href="" class="rig-text ayued fl mr20">
+										编程
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/ayued.1.png" alt="">
+									<span class="con-left-top fl ">
+										图书频道
+									</span>
+									<span class="con-left-en fl">
+										BOOKS CH ANNEL
+									</span>
+									<span class="con-left-bot fl ">
+										满100减30
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayued.2.png" alt="" />
+											<span class="rig-item-top">
+												畅销好书
+											</span>
+											<span class="rig-item-bot">
+												排行榜
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayued.3.png" alt="" />
+											<span class="rig-item-top">
+												特色图书
+											</span>
+											<span class="rig-item-bot">
+												每满100减30
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayued.4.png" alt="" />
+											<span class="rig-item-top">
+												文学馆
+											</span>
+											<span class="rig-item-bot">
+												满300减100
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayued.5.png" alt="" />
+											<span class="rig-item-top">
+												童书馆
+											</span>
+											<span class="rig-item-bot">
+												满300减100
+											</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayued.6.png" alt="" />
+										<span class="img-top fl">
+											图书音像
+										</span>
+										<span class="img-mid fl">
+											30万种好书
+										</span>
+										<span class="img-bot fl">
+											满300减100
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayued.7.png" alt="" />
+										<span class="img-top fl">
+											人文社科
+										</span>
+										<span class="img-mid fl">
+											满300减100
+										</span>
+										<span class="img-bot fl">
+											阶梯满减
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayued.8.png" alt="" />
+										<span class="img-top fl">
+											动漫文娱
+										</span>
+										<span class="img-mid fl">
+											大牌云集
+										</span>
+										<span class="img-bot fl">
+											满150减50
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/ayued.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayued.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayued.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayued.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayued.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayued.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30">
+							<div class="life-head ache mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱车
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text ache fl mr10">
+										雨刷器
+									</a>
+									<a href="" class="rig-text ache fl mr10">
+										高清记录仪
+									</a>
+									<a href="" class="rig-text ache fl mr10">
+										机油
+									</a>
+									<a href="" class="rig-text fl mr20">
+										美容汽车
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/ache.1.png" alt="">
+									<span class="con-left-top fl ">
+										汽车用品
+									</span>
+									<span class="con-left-en fl">
+										AUTOMOBILE
+									</span>
+									<span class="con-left-bot fl ">
+										买一赠一专享惠
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ache.2.png" alt="" />
+											<span class="rig-item-top">
+												车载电器
+											</span>
+											<span class="rig-item-bot">
+												智能行车
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ache.3.png" alt="" />
+											<span class="rig-item-top">
+												装饰自驾
+											</span>
+											<span class="rig-item-bot">
+												内饰换新
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ache.4.png" alt="" />
+											<span class="rig-item-top">
+												维修保养
+											</span>
+											<span class="rig-item-bot">
+												特价机油
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ache.5.png" alt="" />
+											<span class="rig-item-top">
+												易车
+											</span>
+											<span class="rig-item-bot">
+												轻松购车
+											</span>
+										</a>
+									</li>	
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ache.6.png" alt="" />
+										<span class="img-top fl">
+											汽车贴膜
+										</span>
+										<span class="img-mid fl">
+											大牌云集
+										</span>
+										<span class="img-bot fl">
+											去看看
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ache.7.png" alt="" />
+										<span class="img-top fl">
+											汽车养护
+										</span>
+										<span class="img-mid fl">
+											低于19元
+										</span>
+										<span class="img-bot fl">
+											全场低价
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ache.8.png" alt="" />
+										<span class="img-top fl">
+											车品钜惠
+										</span>
+										<span class="img-mid fl">
+											一元享安装
+										</span>
+										<span class="img-bot fl">
+											曝品直降
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/ache.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ache.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ache.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ache.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ache.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ache.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30 mr10">
+							<div class="life-head ayx mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱游戏
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text ayx fl mr10">
+										女神专区
+									</a>
+									<a href="" class="rig-text ayx fl mr10">
+										装机大师
+									</a>
+									<a href="" class="rig-text ayx fl mr10">
+										私人订制
+									</a>
+									<a href="" class="rig-text ayx fl mr20">
+										游戏周刊
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/ayx.1.png" alt="">
+									<span class="con-left-top fl ">
+										京东游戏
+									</span>
+									<span class="con-left-en fl">
+										JD GAME+
+									</span>
+									<span class="con-left-bot fl ">
+										机械键盘低至99元
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayx.2.png" alt="" />
+											<span class="rig-item-top">
+												虚拟充值
+											</span>
+											<span class="rig-item-bot">
+												剑圣公仔易大师
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayx.3.png" alt="" />
+											<span class="rig-item-top">
+												游戏装备
+											</span>
+											<span class="rig-item-bot">
+												王者荣耀
+												即连即玩
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayx.4.png" alt="" />
+											<span class="rig-item-top">
+												超酷社区
+											</span>
+											<span class="rig-item-bot">
+												穿越火线一起作战
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ayx.5.png" alt="" />
+											<span class="rig-item-top">
+												游戏潮品
+											</span>
+											<span class="rig-item-bot">
+												全球限量机箱首发
+											</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayx.6.png" alt="" />
+										<span class="img-top fl">
+											CSGO品牌惠
+										</span>
+										<span class="img-mid fl">
+											游戏装备低至5折
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayx.7.png" alt="" />
+										<span class="img-top fl">
+											宏碁X欧莱雅
+										</span>
+										<span class="img-mid fl">
+											手快赢千元礼包
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ayx.8.png" alt="" />
+										<span class="img-top fl">
+											设计师专属
+										</span>
+										<span class="img-mid fl">
+											性能台机低至3999
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/ayx.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayx.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayx.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayx.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayx.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ayx.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30">
+							<div class="life-head jdjr mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										京东金融
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text jdhr fl mr10">
+										打白条
+									</a>
+									<a href="" class="rig-text jdjr fl mr10">
+										筹好物
+									</a>
+									<a href="" class="rig-text jdjr fl mr10">
+										享收益
+									</a>
+									<a href="" class="rig-text jdjr fl mr10">
+										保险保障
+									</a>
+									<a href="" class="rig-text jdjr fl mr20">
+										京东支付
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/jdjr.1.png" alt="">
+									<span class="con-left-top fl ">
+										大牌新机
+									</span>
+									<span class="con-left-en fl">
+										FINANCIAL
+									</span>
+									<span class="con-left-bot fl ">
+										12期免息
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdjr.2.png" alt="" />
+											<span class="rig-item-top">
+												IN货推荐
+											</span>
+											<span class="rig-item-bot">
+												立省1600
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdjr.3.png" alt="" />
+											<span class="rig-item-top">
+												金融新手
+											</span>
+											<span class="rig-item-bot">
+												送888礼包
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdjr.4.png" alt="" />
+											<span class="rig-item-top">
+												0元试用
+											</span>
+											<span class="rig-item-bot">
+												雷神K60
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/jdjr.5.png" alt="" />
+											<span class="rig-item-top">
+												每日抢卷
+											</span>
+											<span class="rig-item-bot">
+												全品类劵满10减5
+											</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/jdjr.6.png" alt="" />
+										<span class="img-top fl">
+											新品上市
+										</span>
+										<span class="img-mid fl">
+											白条免息
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/jdjr.7.png" alt="" />
+										<span class="img-top fl">
+											速领128消费大礼包
+										</span>
+										<span class="img-mid fl">
+											小金库新用户专享
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/jdjr.8.png" alt="" />
+										<span class="img-top fl">
+											青梅酒
+										</span>
+										<span class="img-mid fl">
+											立省199
+										</span>
+										<span class="img-bot fl">
+											守护少女
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/jdjr.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdjr.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdjr.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdjr.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdjr.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/jdjr.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30 mr10">
+							<div class="life-head shlx mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										旅游频道
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text shlx fl mr10">
+										机票
+									</a>
+									<a href="" class="rig-text shlx fl mr10">
+										火车票
+									</a>
+									<a href="" class="rig-text shlx fl mr10">
+										酒店
+									</a>
+									<a href="" class="rig-text shlx fl mr20">
+										电影票
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/shly.1.png" alt="">
+									<span class="con-left-top fl ">
+										旅游频道
+									</span>
+									<span class="con-left-en fl">
+										TRAVEL
+									</span>
+									<span class="con-left-bot fl ">
+										唯美大溪地2999起
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/shly.2.png" alt="" />
+											<span class="rig-item-top">
+												全球航线
+											</span>
+											<span class="rig-item-bot">
+												1675含税飞京东
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/shly.3.png" alt="" />
+											<span class="rig-item-top">
+												火车票
+											</span>
+											<span class="rig-item-bot">
+												最高立减20
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/shly.4.png" alt="" />
+											<span class="rig-item-top">
+												星级酒店
+											</span>
+											<span class="rig-item-bot">
+												99元景区
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/shly.5.png" alt="" />
+											<span class="rig-item-top">
+												惠生活
+											</span>
+											<span class="rig-item-bot">
+												亲子演出3折起
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/shly.6.png" alt="" />
+										<span class="img-top fl">
+											品质生活
+										</span>
+										<span class="img-mid fl">
+											保洁5折起
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/shly.7.png" alt="" />
+										<span class="img-top fl">
+											时尚旅拍
+										</span>
+										<span class="img-mid fl">
+											直降3000元
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/shly.8.png" alt="" />
+										<span class="img-top fl">
+											家电清洗
+										</span>
+										<span class="img-mid fl">
+											低至58元
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/shly.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/shly.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/shly.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/shly.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/shly.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/shly.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="item fl mb30">
+							<div class="life-head ajk mb10">
+								<div class="head-left fl">
+									<h4 class="life-title fl">
+										爱健康
+									</h4>
+									<div class="life-code fl">
+										二维码
+									</div>
+								</div>
+								<div class="head-right fr">
+									<a href="" class="rig-text ajk fl mr10">
+										健康服务
+									</a>
+									<a href="" class="rig-text ajk fl mr10">
+										计生情趣
+									</a>
+									<a href="" class="rig-text ajk fl mr10">
+										隐形眼镜
+									</a>
+									<a href="" class="rig-text ajk fl mr20">
+										慢病管理
+									</a>
+								</div>
+							</div>
+							
+							<div class="life-con clearfix">
+								<a href="" class="life-con-left fl ml10">
+									<img src="../img/ajk.1.png" alt="">
+									<span class="con-left-top fl ">
+										京东大药房
+									</span>
+									<span class="con-left-en fl">
+										PHARMACY
+									</span>
+									<span class="con-left-bot fl ">
+										满199减20元
+									</span>
+									<span class="con-left-t fl"></span>
+								</a>
+								<ul class="life-con-right fl ml10">
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ajk.2.png" alt="" />
+											<span class="rig-item-top">
+												家用医疗
+											</span>
+											<span class="rig-item-bot">
+												曝品直降
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ajk.3.png" alt="" />
+											<span class="rig-item-top">
+												营养保健
+											</span>
+											<span class="rig-item-bot">
+												2件8折
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt br fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ajk.4.png" alt="" />
+											<span class="rig-item-top">
+												滋补养生
+											</span>
+											<span class="rig-item-bot">
+												低至5折
+											</span>
+										</a>
+									</li>
+									<li class="con-right-item bt fl">
+										<a href="" class="rig-item fl">
+											<img src="../img/ajk.5.png" alt="" />
+											<span class="rig-item-top">
+												京东医药
+											</span>
+											<span class="rig-item-bot">
+												每满99减10
+											</span>
+										</a>
+									</li>	
+								</ul>
+							</div>
+							<ul class="life-bot">
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ajk.6.png" alt="" />
+										<span class="img-top fl">
+											轮椅助行
+										</span>
+										<span class="img-mid fl">
+											全场直降
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ajk.7.png" alt="" />
+										<span class="img-top fl">
+											传统滋补
+										</span>
+										<span class="img-mid fl">
+											2件8折3件7折
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+								<li class="life-bot-item fl ml10">
+									<a href="" class="bot-item-img fl">
+										<img src="../img/ajk.8.png" alt="" />
+										<span class="img-top fl">
+											隐形眼镜
+										</span>
+										<span class="img-mid fl">
+											大牌聚会
+										</span>
+										<span class="img-bot fl">
+											立即抢购
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="life-ad clearfix ml10">
+								<a href="" class="ad-text fl">
+									<img src="../img/ajk.ad.1.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ajk.ad.2.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ajk.ad.3.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ajk.ad.4.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ajk.ad.5.png" alt="">
+								</a>
+								<a href="" class="ad-text fl">
+									<img src="../img/ajk.ad.6.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--购特色-->
+			<div class="feature mb19">
+				<div class="w1190 h286 tit-ba">
+					<h3 class="title">购特色</h3>
+					<ul class="fea-con clearfix">
+						<li class="fea-item mr10 fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.1.png" />
+								<span class="fea-img-bot">
+									<span class="img-color fy"></span>
+									<span class="img-text">
+										司法拍卖
+									</span>
+									<span href="" class="img-tags">
+										法院好货 公开抢拍
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="fea-item mr10 fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.2.png" />
+								<span class="fea-img-bot">
+									<span class="img-color hq"></span>
+									<span class="img-text">
+										环球时尚
+									</span>
+									<span href="" class="img-tags">
+										环球名品，奢华精选
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="fea-item mr10 fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.3.png" />
+								<span class="fea-img-bot">
+									<span class="img-color pp"></span>
+									<span class="img-text">
+										品牌特卖
+									</span>
+									<span href="" class="img-tags">
+										品牌限时特卖
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="fea-item mr10 fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.4.png" />
+								<span class="fea-img-bot">
+									<span class="img-color pb"></span>
+									<span class="img-text">
+										陪伴宝宝
+									</span>
+									<span href="" class="img-tags">
+										跨店199减60
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="fea-item mr10 fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.5.png" />
+								<span class="fea-img-bot">
+									<span class="img-color qy"></span>
+									<span class="img-text">
+										企业采购
+									</span>
+									<span href="" class="img-tags">
+										笔记本每满千减百
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="fea-item mr10 fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.6.png" />
+								<span class="fea-img-bot">
+									<span class="img-color tj"></span>
+									<span class="img-text">
+										IN货推荐
+									</span>
+									<span href="" class="img-tags">
+										手机新品享 12期免息
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="fea-item mr10 fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.7.png" />
+								<span class="fea-img-bot">
+									<span class="img-color jd"></span>
+									<span class="img-text">
+										京东扶贫
+									</span>
+									<span href="" class="img-tags">
+										买特产，助贫农
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="fea-item  fl">
+							<a href="" class="fea-img fl">
+								<img src="../img/gts.8.png" />
+								<span class="fea-img-bot">
+									<span class="img-color jk"></span>
+									<span class="img-text">
+										健康服务
+									</span>
+									<span href="" class="img-tags">
+										爆款直降
+									</span>
+								</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="bot-ad">
+					<div class="w1190 clearfix">
+						<a href="" class="fl">
+							<img src="../img/gts.ad.1.png" alt="" />
+						</a>
+						<a href="" class="fl">
+							<img src="../img/gts.ad.2.png" alt="" />
+						</a>
+						<a href="" class="fl">
+							<img src="../img/gts.ad.3.png" alt="" />
+						</a>
+					</div>
+				
+				</div>	
+			</div>
+			<!--还没逛够-->
+			<div class="enough">
+				<div class="w1190 h716" >
+					<h3 class="title">
+						还没逛够
+					</h3>
+					<ul class="en-con clearfix">
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.1.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								蒙奇奇 手机壳乐视2保护套磨砂轻薄后盖 适用于乐视2/x620/乐视手机
+							</a>
+							<span class="img-tags ml15 fl">
+							￥23.00
+							</span>
+						</li>
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.2.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								【爱配客】安装发动机底护板服务（本商品为套装商品，不支持单独退
+							</a>
+							<span class="img-tags ml15 fl">
+							￥40.00
+							</span>
+						</li>
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.3.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								龟牌（Turtle Wax)大力橙汽车柏油清洗剂 鸟粪虫胶去除剂 沥青柏油清洗剂
+							</a>
+							<span class="img-tags ml15 fl">
+							￥10.50
+							</span>
+						</li>
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.4.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								海愿JEPP指南者自由可自由光自动升窗器大切诺基酷博酷威一键关窗升降
+							</a>
+							<span class="img-tags ml15 fl">
+							￥218.00
+							</span>
+						</li>
+						<li class="en-item  mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.5.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								丰田凯美瑞 RAV4 荣放 汉兰达 兰德酷路泽 赛纳塞纳 电动尾门 改装一脚
+							</a>
+							<span class="img-tags ml15 fl">
+							￥2280.0
+							</span>
+						</li>
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.6.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								3M除胶剂柏油清洁剂沥青清洗剂汽车家用粘胶贴胶不干胶去胶清除剂去除
+							</a>
+							<span class="img-tags ml15 fl">
+							￥68.00
+							</span>
+						</li>
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.7.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								卫甲(VIGA)【送钢化膜，当天发货】全包边微磨砂防摔壳 锤子坚果
+							</a>
+							<span class="img-tags ml15 fl">
+							￥19.00
+							</span>
+						</li>
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.8.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								3M除胶剂 柏油清洁剂沥青 清洗剂 粘胶贴胶去除剂 汽车不干胶 清除剂
+							</a>
+							<span class="img-tags ml15 fl">
+							￥23.00
+							</span>
+						</li>
+						<li class="en-item mr10 mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.9.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								【分期用】三星 Galaxy Note8(SM-N9500)6GB+6
+								GB 谜
+							</a>
+							<span class="img-tags ml15 fl">
+							￥6988.00
+							</span>
+						</li>
+						<li class="en-item  mb10 fl">
+							<a href="" class="en-item-img fl ">
+								<img src="../img/mgg.10.png" alt="">
+							</a>
+							<a href="" class=" img-text fl ml15">
+								忠诚卫士自由光Jeep全新专用升窗器后视镜折叠器玻璃升降改装专后视
+							</a>
+							<span class="img-tags ml15 fl">
+							￥488.00
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>	
+			<!--底部-->
+			<footer class="foot mt30">
+				<div class="foot-top">
+					<div class="w1190 clearfix">
+						<div class="top-img top-d fl mt30"></div>
+						<div class="top-tags mt30 fl">
+							品类齐全，轻松购物
+						</div>
+						<div class="top-img fl mt30 top-k"></div>
+						<div class="top-tags mt30 fl">
+							多仓直发，极速配送
+						</div>
+						<div class="top-img fl mt30 top-h"></div>
+						<div class="top-tags mt30 fl">
+							正品行货，精致服务
+						</div>
+						<div class="top-img fl mt30 top-s"></div>
+						<div class="top-tags mt30 fl">
+							天天低价，畅选无忧
+						</div>
+						
+					</div>
+				</div>
+				<div class="w1190 h464">
+					<div class="foot-mil clearfix">
+						<div class="foot-item fl">
+							<h4 class="item-title fl">
+								购物指南
+							</h4>
+							<a href="" class="item-text fl">
+								购物流程
+							</a>
+							<a href="" class="item-text fl">
+								会员介绍
+							</a>
+							<a href="" class="item-text fl">
+								生活旅行
+							</a>
+							<a href="" class="item-text fl">
+								常见问题
+							</a>
+							<a href="" class="item-text fl">
+								大家电
+							</a>
+							<a href="" class="item-text fl">
+								联系客服
+							</a>
+						</div>
+						<div class="foot-item fl ml97">
+							<h4 class="item-title fl">
+								配送方式
+							</h4>
+							<a href="" class="item-text fl">
+								上门自提
+							</a>
+							<a href="" class="item-text fl">
+								211限时达
+							</a>
+							<a href="" class="item-text fl">
+								配送服务查询
+							</a>
+							<a href="" class="item-text fl">
+								配送费收取标准
+							</a>
+							<a href="" class="item-text fl">
+								海外配送
+							</a>
+						</div>
+						<div class="foot-item fl ml97">
+							<h4 class="item-title fl">
+								支付方式
+							</h4>
+							<a href="" class="item-text fl">
+								货到付款
+							</a>
+							<a href="" class="item-text fl">
+								在线支付
+							</a>
+							<a href="" class="item-text fl">
+								分期付款
+							</a>
+							<a href="" class="item-text fl">
+								邮局汇款
+							</a>
+							<a href="" class="item-text fl">
+								公司转账
+							</a>
+						</div>
+						<div class="foot-item fl ml97">
+							<h4 class="item-title fl">
+								售后服务
+							</h4>
+							<a href="" class="item-text fl">
+								售后政策
+							</a>
+							<a href="" class="item-text fl">
+								价格保护
+							</a>
+							<a href="" class="item-text fl">
+								退款说明
+							</a>
+							<a href="" class="item-text fl">
+								返修/退换货
+							</a>
+							<a href="" class="item-text fl">
+								取消订单
+							</a>
+						</div>
+						<div class="foot-item fl ml97">
+							<h4 class="item-title fl">
+								特色服务
+							</h4>
+							<a href="" class="item-text fl">
+								夺宝岛
+							</a>
+							<a href="" class="item-text fl">
+								DIY装机
+							</a>
+							<a href="" class="item-text fl">
+								延保服务
+							</a>
+							<a href="" class="item-text fl">
+								京东E卡
+							</a>
+							<a href="" class="item-text fl">
+								京东通信
+							</a>
+							<a href="" class="item-text fl">
+								京东JD+
+							</a>
+						</div>
+						<div class="foot-item-rig fr">
+							<h4 class="rig-title fl">
+								京东自营覆盖区县
+							</h4>
+							<span class="rig-text fl">
+								京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。
+							</span>
+							<a href="" class="rig-tags fr">
+								查看详情>
+							</a>
+						</div>
+							
+					</div>
+					<div class="regard ">
+						<a href="" class="reg-text  ml10 br">
+							关于我们
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							联系我们
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							联系客服
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							合作招商
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							商家帮助
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							营销中心
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							手机京东
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							友情链接
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							销售联盟
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							京东社区
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							风险监测
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							隐私政策
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							京东公益
+						</a>
+						<a href="" class="reg-text  ml10 br">
+							English Site
+						</a>
+						<a href="" class="reg-text  ml10 ">
+							Media＆IR
+						</a>
+						
+					</div>
+					<div class="foot-bot mb10">
+						<span class="list br ml10">
+							京公网安备 11000002000088号
+						</span>
+						<span class="list br ml10">
+							京ICP证070359号
+						</span>
+						<span class="list br ml10">
+							互联网药品信息服务资格证编号(京)-经营性-2014-0008
+						</span>
+						<span class="list ml10">
+							新出发京零 子第打120007号
+						</span>
+					</div>
+					
+					<div class="foot-bot mb10">
+						<span class="list br ml10">
+							互联网出版社许可证编号新出网证（京）字150号
+						</span>
+						<span class="list br ml10">
+							出版物经营许可证
+						</span>
+						<span class="list br ml10">
+							网络文化经营许可证京网文[2014]2148-348号
+						</span>
+						<span class="list ml10">
+							违法和不良信息举报电话：4006561155
+						</span>
+					</div>
+					<div class="foot-bot mb10">
+						<span class="list ml10">
+							Copyright © 2004-2017京东JD.com 版权所有
+						</span>
+						<span class="list ml10">
+							消费者维权热线：4006067733
+						</span>
+						<span class="list ml10">
+							营业证照
+						</span>
+					</div>
+					<div class="foot-bot mb14">
+						<span class="list br ml10">
+							京东旗下网站：京东支付
+						</span>
+						<span class="list ml10">
+							京东云
+						</span>
+					</div>	
+					<div class="bottom clearfix">
+						<div class="tom-list fl">
+							<a href="" class="tom-img fl tom-jy"></a>
+							<a href="" class="tom-text fl">
+								经营性网站备案信息
+							</a>
+						</div>
+						<div class="tom-list fl">
+							<a href="" class="tom-img fl tom-kx"></a>
+							<a href="" class="tom-text fl">
+								可信网站信用评价
+							</a>
+						</div>
+						<div class="tom-list fl">
+							<a href="" class="tom-img fl tom-wl"></a>
+							<a href="" class="tom-text fl">
+								网络警察提醒您
+							</a>
+						</div>
+						<div class="tom-list fl">
+							<a href="" class="tom-img fl tom-cx"></a>
+							<a href="" class="tom-text fl mt9">
+								诚心网站
+							</a>
+						</div>
+						<div class="tom-list fl">
+							<a href="" class="tom-img fl tom-zg"></a>
+							<a href="" class="tom-text fl">
+								中国互联网举报中心
+							</a>
+						</div>
+						<div class="tom-list fl">
+							<a href="" class="tom-img fl tom-app"></a>
+							<a href="" class="tom-text fl">
+								网络举报APP下载
+							</a>
+						</div>
+					</div>
+				
+				</div>
+			
+			</footer>
+
+			<div class="right-w">
+				<a href="" class="rig rig-o fl"></a>
+				<a href="" class="rig rig-r fl"></a>
+				<a href="" class="rig rig-s fl"></a>
+				<a href="" class="rig rig-f fl"></a>
+				<a href="" class="rig rig-xx fl"></a>
+				<a href="" class="rig rig-l fl"></a>
+			</div>
+			<div class="right-bot-q">
+				<a href="" class="rig rig-q fl"></a>
+				<a href="" class="rig rig-w fl"></a>
+				<a href="" class="rig rig-e fl"></a>
+			</div>
+			<div class="left">
+				<a href="" class="dn left-t fl"></a>
+				<a href="" class="yd left-t fl"></a>
+				<a href="" class="ac left-t h29 fl"></a>
+				<a href="" class="my left-t fl"></a>
+				<a href="" class="ts left-t fl"></a>
+				<a href="" class="yx left-t fl"></a>
+				<a href="" class="lx left-t fl"></a>
+				<a href="" class="hm left-t fl"></a>
+				<a href="" class="db left-t fl"></a>
+			</div>
+		</section>
+	</body>
+</html>
